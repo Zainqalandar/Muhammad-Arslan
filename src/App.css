@@ -1,0 +1,279 @@
+:root {
+  --background-dark: rgb(15 23 42);
+  --background-text: rgb(255, 255, 255);
+  --background-header: rgb(30, 41, 59);
+
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+html{
+  font-family: Nunito,sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Nunito Sans', sans-serif; */
+  /* background-color: var(--background-dark); */
+}
+
+/* Header  */
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 32px;
+  background-color: #f3f4f6;
+  min-width: 228px;
+}
+
+.hidden__navIcon {
+  display: none;
+}
+
+.nav__logo,
+.read_blog {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav__logo span {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.nav__logo img {
+  width: 30px;
+  height: 32px;
+}
+
+.nav__ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 701px;
+  height: 41px;
+  margin-left: -135px;
+}
+
+#isactive{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b7280;
+  line-height: 20px;
+}
+/* .nav__ul li Link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b7280;
+  line-height: 20px;
+} */
+.nav__ul li a:hover{
+  color: rgb(75 85 99);
+}
+
+.nav__ul svg {
+  width: 15px;
+  color: #6b7280;
+}
+
+.blog-btn {
+  background-color: #1a202c;
+  color: #f9fafb;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  margin-right: 12px;
+}
+
+.for__semall {
+  display: none;
+  visibility: hidden;
+}
+
+
+/* Main  */
+main {
+  min-height: 549px;
+  padding: 32px 0px;
+  margin-top: 16px;
+}
+
+/* ----------- */
+/* footer  */
+footer {
+
+  background-color: #f3f4f6;
+  /* min-width: 292px; */
+}
+
+.footer_container {
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1238px;
+  margin: auto;
+  color: #6b7280;
+  
+}
+
+.footer_container p {
+  color: #6b7280;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.social__links {
+  display: flex;
+  gap: 32px;
+  margin-right: 15px;
+  
+}
+
+.dark_mode__btn {
+  background-color: white;
+  border: none;
+  background-color: var(--background-dark);
+  color: white;
+  border-radius: 9999px;
+  width: 52px;
+  height: 52px;
+  position: fixed;
+  right: 58px;
+  bottom: 44px;
+}
+
+@media screen and (max-width: 1278px) {
+  .nav__logo span {
+      font-size: 18px;
+      line-height: 28px;
+  }
+
+}
+
+@media screen and (max-width: 1206px) {
+  .nav__ul {
+      width: 608px;
+      height: 41px;
+      margin-left: 0px;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+      padding: 16px 16px;
+  }
+
+  .hidden__navIcon {
+      display: block;
+      width: 16px;
+  }
+
+  .nav__ul {
+      display: none;
+  }
+
+  .read_blog {
+      display: none;
+  }
+
+  .for__semall {
+      visibility: visible;
+      position: fixed;
+      z-index: 7;
+      top: 0px;
+      background-color: white;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      overflow-y: scroll;
+      height: 100%;
+      width: 100%;
+      /* Use width: 100% instead of max-width */
+      max-width: 384px;
+      display: none;
+  }
+
+  .for__semall_ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+      position: absolute;
+      width: 300px;
+      top: 100px;
+      left: 50px;
+  }
+
+  .for__semall_ul li svg {
+      visibility: hidden;
+  }
+
+  .navbar-close {
+      width: 26px;
+      position: absolute;
+      top: 18px;
+      right: 19px;
+      background: none;
+      border: none;
+      color: #6b7280;
+  }
+
+  .footer_container {
+      justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .footer_container {
+      flex-direction: column;
+      gap: 5px;
+  }
+
+}
+
+@media screen and (max-width: 636px) {
+  .for__semall {
+      max-width: 289px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .footer_container p {
+      text-align: center;
+  }
+  .for__semall {
+      max-width: 229px;
+
+  }
+}
+@media screen and (max-width: 350px) {
+  .social__links{
+      margin-right: 0px;
+      gap: 22px;
+  }
+  
+}
