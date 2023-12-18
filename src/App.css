@@ -150,6 +150,10 @@ footer {
   margin-right: 15px;
   
 }
+.social__links a{
+  text-decoration: none;
+  color: inherit;
+}
 
 .dark_mode__btn {
   background-color: white;

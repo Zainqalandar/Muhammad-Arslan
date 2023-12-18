@@ -135,9 +135,9 @@ function About() {
                 <div className="technical__detail">
                     <h1>What do I do</h1>
                     <div className="technical-box1">
-                        <h2>Full-stack Software Engineer</h2>
+                        <h2>Back-End Developer with Python</h2>
                         <p>
-                            I love to write code. I love to design systems. This is the most
+                            I love to write code. I love to Data analysis. This is the most
                             important thing that I do. Currently I am working remotely at{" "}
                             <a href="" className="text_bold">
                                 @Cruise
@@ -187,7 +187,7 @@ function About() {
                         <h2>Youtube Channel</h2>
                         <p>
                             Like everybody else I have a{" "}
-                            <a href="" className="text_bold text-red">
+                            <a href="https://www.youtube.com/channel/UCVVXtYI5d9gwLvRMHJr_Vsg" target='_blank' className="text_bold text-red">
                                 Youtube Channel
                             </a>{" "}
                             as well. I am not yet regular there and definitely not good at it yet

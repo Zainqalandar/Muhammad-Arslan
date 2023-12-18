@@ -18,8 +18,141 @@ import Blog15 from '../assets/img/blog15.webp'
 import Blog16 from '../assets/img/blog16.webp'
 import Blog17 from '../assets/img/blog17.webp'
 import Blog18 from '../assets/img/blog18.webp'
+import { Link } from 'react-router-dom'
 
 const Blog = () => {
+
+    const blogData = [
+        {
+            image: `${Blog1}`,
+            languages: ["AWS", "ReactJS", "Javascript"],
+            title: "All about Postman Collection",
+            description: "How to create and Export Postman API’s",
+            date: "November 14, 2023"
+        },
+        {
+            image: `${Blog2}`,
+            languages: ["NodeJS"],
+            title: "Awesome Terminal Applications",
+            description: "This is a curated list of some useful terminal apps and how to use them.",
+            date: "November 12, 2023"
+        },
+        {
+            image: `${Blog3}`,
+            languages: ["ReactJS", "ReactJS"],
+            title: "How To Choose Data Fetching Strategies In NextJS",
+            description: "Explained with real-world examples",
+            date: "November 10, 2023"
+        },
+        {
+            image: `${Blog4}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "React useState hook from scratch",
+            description: "Let's learn the fundamentals of ReactJS",
+            date: "November 4, 2023"
+        },
+        {
+            image: `${Blog5}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "The Greatest React Developer I Ever Met",
+            description: "We had our differences but still...",
+            date: "October 26, 2023"
+        },
+        {
+            image: `${Blog6}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "Single Table Design with DynamoDB",
+            description: "The anatomy of the single-table design approach. Is it any good?",
+            date: "October 5, 2023"
+        },
+        {
+            image: `${Blog7}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "Developing a Powerful Alert System Using React Context API",
+            description: "A practical example of React’s Context API in action",
+            date: "October 1, 2023"
+        },
+        {
+            image: `${Blog8}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "Google Place Search in React",
+            description: "Implement google's place search API easily.",
+            date: "September 19, 2023"
+        },
+        {
+            image: `${Blog9}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "My Frustrations With the Context API in React",
+            description: "And why I am going with Redux for my next project",
+            date: "September 13, 2023"
+        },
+        {
+            image: `${Blog10}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "21 Best Practices for Handling Passwords in Web Applications",
+            description: "Build secure apps",
+            date: "August 25, 2023"
+        },
+        {
+            image: `${Blog11}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "Top 7 Libraries for Blazingly Fast ReactJS Applications",
+            description: "Some must-have tools for a rock-star developer",
+            date: "August 18, 2023"
+        },
+        {
+            image: `${Blog12}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "21 Best Practices for a Clean React Project",
+            description: "Practical advice for improving code quality",
+            date: "August 3, 2023"
+        },
+        {
+            image: `${Blog13}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "How to Use React Hook Form with TypeScript",
+            description: "Build Performant and Clean Forms for Your Web Application",
+            date: "August 1, 2023"
+        },
+        {
+            image: `${Blog14}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "Applying the Open-Closed Principle To Write Clean React Components",
+            description: "A look at the SOLID principles in action",
+            date: "August 1, 2023"
+        },
+        {
+            image: `${Blog15}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "How To Improve Rendering Performance in a 1,000-Item React List",
+            description: "Let’s ensure that our web apps scroll efficiently",
+            date: "July 30, 2023"
+        },
+        {
+            image: `${Blog16}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "Apply the Dependency Inversion Principle in React",
+            description: "Your React component knows too much. Let’s fix that",
+            date: "July 22, 2023"
+        },
+        {
+            image: `${Blog17}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "A Complete Guideline to Creating a Modern React App With TypeScript From Scratch",
+            description: "You’re about to love create-react-app even more",
+            date: "July 8, 2023"
+        },
+        {
+            image: `${Blog18}`,
+            languages: ["ReactJS", "ReactJS", "ReactJS"],
+            title: "How to Apply Interface Segregation Principle in ReactJS",
+            description: "SOLID principles in action",
+            date: "July 4, 2023"
+        }
+    ];
+
+    // Now you can use the blogData array as needed in your application.
+
     return (
         <>
             <div className="Blog__heading">
@@ -63,256 +196,24 @@ const Blog = () => {
                 </form>
             </div>
             <section className="blog__grid">
-                <div className="bog1 Blog">
-                    <img src={`${Blog1}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>AWS</span>
-                        <span>Javascript</span>
-                    </div>
-                    <div className="blog_title">All about Postman Collection</div>
-                    <div className="blog_description">
-                        How to create and Export Postman API’s
-                    </div>
-                    <div className="blog_date">November 14, 2023</div>
-                </div>
-                <div className="bog2 Blog">
-                    <img width={400} height={200} src={`${Blog2}`} alt="" />
-                    <div className="languges">
-                        <span id="green">NodeJS</span>
-                    </div>
-                    <div className="blog_title">Awesome Terminal Applications</div>
-                    <div className="blog_description">
-                        This is a curated list of some useful terminal apps and how to use them.
-                    </div>
-                    <div className="blog_date">November 12, 2023</div>
-                </div>
-                <div className="bog3 Blog">
-                    <img src={`${Blog3}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">
-                        How To Choose Data Fetching Strategies In NextJS
-                    </div>
-                    <div className="blog_description">Explained with real-world examples</div>
-                    <div className="blog_date">November 10, 2023</div>
-                </div>
-                <div className="bog4 Blog">
-                    <img src={`${Blog4}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">React useState hook from scratch</div>
-                    <div className="blog_description">
-                        Let's learn the fundamentals of ReactJS
-                    </div>
-                    <div className="blog_date">November 4, 2023</div>
-                </div>
-                <div className="bog5 Blog">
-                    <img src={`${Blog5}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">The Greatest React Developer I Ever Met</div>
-                    <div className="blog_description">
-                        We had our differences but still...
-                    </div>
-                    <div className="blog_date">October 26, 2023</div>
-                </div>
-                <div className="bog6 Blog">
-                    <img src={`${Blog6}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">Single Table Design with DynamoDB</div>
-                    <div className="blog_description">
-                        The anatomy of the single-table design approach. Is it any good?
-                    </div>
-                    <div className="blog_date">October 5, 2023</div>
-                </div>
-                <div className="bog7 Blog">
-                    <img src={`${Blog7}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">
-                        Developing a Powerful Alert System Using React Context API
-                    </div>
-                    <div className="blog_description">
-                        A practical example of React’s Context API in action
-                    </div>
-                    <div className="blog_date">October 1, 2023</div>
-                </div>
-                <div className="bog8 Blog">
-                    <img src={`${Blog8}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">Google Place Search in React</div>
-                    <div className="blog_description">
-                        Implement google's place search API easily.
-                    </div>
-                    <div className="blog_date">September 19, 2023</div>
-                </div>
-                <div className="bog9 Blog">
-                    <img src={`${Blog9}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">
-                        My Frustrations With the Context API in React
-                    </div>
-                    <div className="blog_description">
-                        And why I am going with Redux for my next project
-                    </div>
-                    <div className="blog_date">September 13, 2023</div>
-                </div>
-                <div className="bog10 Blog">
-                    <img src={`${Blog10}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">
-                        21 Best Practices for Handling Passwords in Web Applications
-                    </div>
-                    <div className="blog_description">Build secure apps</div>
-                    <div className="blog_date">August 25, 2023</div>
-                </div>
-                <div className="bog11 Blog">
-                    <img src={`${Blog11}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">
-                        Top 7 Libraries for Blazingly Fast ReactJS Applications
-                    </div>
-                    <div className="blog_description">
-                        Some must-have tools for a rock-star developer
-                    </div>
-                    <div className="blog_date">August 18, 2023</div>
-                </div>
-                <div className="bog12 Blog">
-                    <img src={`${Blog12}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">
-                        21 Best Practices for a Clean React Project
-                    </div>
-                    <div className="blog_description">
-                        Practical advice for improving code quality
-                    </div>
-                    <div className="blog_date">August 3, 2023</div>
-                </div>
-                <div className="bog13 Blog">
-                    <img src={`${Blog13}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">
-                        How to Use React Hook Form with TypeScript
-                    </div>
-                    <div className="blog_description">
-                        Build Performant and Clean Forms for Your Web Application
-                    </div>
-                    <div className="blog_date">August 1, 2023</div>
-                </div>
-                <div className="bog14 Blog">
-                    <img src={`${Blog14}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">
-                        Applying the Open-Closed Principle To Write Clean React Components
-                    </div>
-                    <div className="blog_description">
-                        A look at the SOLID principles in action
-                    </div>
-                    <div className="blog_date">August 1, 2023</div>
-                </div>
-                <div className="bog15 Blog">
-                    <img src={`${Blog15}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">
-                        How To Improve Rendering Performance in a 1,000-Item React List
-                    </div>
-                    <div className="blog_description">
-                        Let’s ensure that our web apps scroll efficiently
-                    </div>
-                    <div className="blog_date">July 30, 2023</div>
-                </div>
-                <div className="bog16 Blog">
-                    <img src={`${Blog16}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">
-                        Apply the Dependency Inversion Principle in React
-                    </div>
-                    <div className="blog_description">
-                        Your React component knows too much. Let’s fix that
-                    </div>
-                    <div className="blog_date">July 22, 2023</div>
-                </div>
-                <div className="bog17 Blog">
-                    <img src={`${Blog17}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">
-                        A Complete Guideline to Creating a Modern React App With TypeScript From
-                        Scratch
-                    </div>
-                    <div className="blog_description">
-                        You’re about to love create-react-app even more
-                    </div>
-                    <div className="blog_date">July 8, 2023</div>
-                </div>
-                <div className="bog18 Blog">
-                    <img src={`${Blog18}`} alt="" />
-                    <div className="languges">
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                        <span>ReactJS</span>
-                    </div>
-                    <div className="blog_title">
-                        How to Apply Interface Segregation Principle in ReactJS
-                    </div>
-                    <div className="blog_description">SOLID principles in action</div>
-                    <div className="blog_date">July 4, 2023</div>
-                </div>
+                {
+                    blogData.map((blogData, index) => (
+                            <div className="bog1 Blog" key={index}>
+                                <Link to="/detail" > <img src={`${blogData.image}`} alt=""  /> </Link>
+                                <div className="languges">
+                                    <span>{blogData.languages[1]}</span>
+                                    <span>{blogData.languages[2]}</span>
+                                    <span>{blogData.languages[3]}</span>
+                                </div>
+                                <div className="blog_title">{blogData.title}</div>
+                                <div className="blog_description">
+                                    {blogData.description}
+                                </div>
+                                <div className="blog_date">{blogData.date}</div>
+                            </div>
+                    ))
+                }
+
             </section>
         </>
     )

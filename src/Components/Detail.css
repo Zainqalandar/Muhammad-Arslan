@@ -1,0 +1,33 @@
+/* Deail  */
+.blog_detail{
+    margin: 0 auto;
+    max-width: 725px;
+}
+.header__blog{
+    display: flex;
+    margin: 0 auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 722px;
+    max-height: 216px;
+    border-radius: 0;
+}
+.header__blog img{
+    width: 100%;
+}
+
+.header_heading{
+    padding-top: 32px;
+    font-weight: 600;
+    line-height: 60px;
+    font-size: 48px;
+}
+
+.header_descrption{
+    margin: 16px 0;
+font-weight: 400;
+font-size:  20px;
+line-height: 35px;
+}
