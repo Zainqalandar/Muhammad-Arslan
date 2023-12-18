@@ -17,12 +17,13 @@ const Experience = () => {
                         <div className="experience_data">
                             <div className="experience_data2">
                                 <h2 className="experience_heading">
-                                    Software Engineer Level-3 (Remote)
+                                    Deputy Manager Operations
+
                                 </h2>
                                 <div className="experience_date">
                                     <a href="">Cruise LLC</a>
                                     <div>:</div>
-                                    <h3>March 2022 - Present</h3>
+                                    <h3>Jun 2020 - Present · 3 yrs 7 mos</h3>
                                 </div>
                                 <h3 className="grid-title"> Role </h3>
                                 <div className="experiece_grid">
@@ -40,8 +41,7 @@ const Experience = () => {
                                                 <path d="M20 6L9 17l-5-5" />
                                             </svg>
                                         </span>
-                                        Member of DASH team that is responsible for monitoring the entire
-                                        driverless fleet
+                                        <b>Sales Operations:</b> Led data-driven decisions and initiatives for 5-ton/day sales,
                                     </div>
                                     <div>
                                         <span>
@@ -57,63 +57,108 @@ const Experience = () => {
                                                 <path d="M20 6L9 17l-5-5" />
                                             </svg>
                                         </span>
-                                        Writing API, unit tests, code review, preparing design documents
-                                        and performance improvement
+                                        <b> Business Development:</b> Proactively communicated with departments across the organization to develop the business and ensure continuous improvement in profitability.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> Project Management:</b> Managed around 19 Six Sigma projects from start to finish, overseeing troubleshooting and scheduled maintenance to ensure optimal production.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b>  Negotiation:</b> Collaborated with vendors to negotiate and secure raw material delivery at optimal prices, fostering positive stakeholder relationships.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b>  Business Development:</b> Proactively communicated with departments across the organization to develop the business and ensure continuous improvement in profitability.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b>  Enterprise Resource Planning: </b> Led and managed organizational resources for efficient business activities with system-generated reports and data analysis for better integration of all departments.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> Technology Upgradation:</b> Accomplished the planning and implementation of an ERP system, resulting in streamlined business operations and increased efficiency.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> De-bottlenecking:</b> Implemented de-bottlenecking measures, such as eliminating redundant processes and improving material flow, resulting in 16% enhanced production, 24% increased efficiency, and 19% reduced downtime.
                                     </div>
                                 </div>
                                 <h3 className="grid-title"> Accomplishments </h3>
                                 <div className="experiece_grid">
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Designed an easier way to record incidents for driverless vehicles
-                                        by automating the note recording process
-                                    </div>
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Improved performance of the front-end application of Starfleet and
-                                        refactoring legacy code to use modern typescript
-                                    </div>
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Wrote NodeJS API for the fleet-ops application and delivered new
-                                        API for various features
-                                    </div>
+                                    <p> <b> Presentation Skills </b>· Third-Party Logistics (3PL) · Sales and Marketing · Self-regulation · Business Development · Market Intelligence · Demand Fulfillment · Production Management · Stakeholder Management · Key Performance Indicators · Production Planning · Warehouse Management Systems · Pricing Strategy · Strategic Sourcing · Quality Management · Organizational Effectiveness · Customer Relationship Management (CRM) · Lean Six Sigma · Operations Management · Change Management · Project Management · Supply Chain Management · Strategic Planning · Communication</p>
                                 </div>
                                 <h3 className="grid-title"> Technologies</h3>
                                 <div className="links_container">
@@ -151,12 +196,14 @@ const Experience = () => {
                         <div className="experience_data">
                             <div className="experience_data2">
                                 <h2 className="experience_heading">
-                                    Senior Software Engineer (Remote)
+                                    Assistant Manager Operations
                                 </h2>
                                 <div className="experience_date">
                                     <a href="">Advanced Mobility Analytics</a>
                                     <div>:</div>
-                                    <h3>February 2021 - February 2022</h3>
+                                    <h3>Nov 2016 - Jun 2020 · 3 yrs 8 mos
+
+                                    </h3>
                                 </div>
                                 <h3 className="grid-title"> Role </h3>
                                 <div className="experiece_grid">
@@ -174,8 +221,7 @@ const Experience = () => {
                                                 <path d="M20 6L9 17l-5-5" />
                                             </svg>
                                         </span>
-                                        Member of Survey Team that is responsible for creating advanced
-                                        road safety monitoring tool
+                                        <b>  Supply Chain Management:</b> Regulated all departments to build an effective supply chain, contributing to a 22% increase in overall organizational profit.
                                     </div>
                                     <div>
                                         <span>
@@ -191,63 +237,108 @@ const Experience = () => {
                                                 <path d="M20 6L9 17l-5-5" />
                                             </svg>
                                         </span>
-                                        Designing front-end components, writing API, unit tests, code
-                                        review, preparing design documents and performance improvement
+                                        Planning: Organized all operations for a smooth supply chain, from raw material to final product delivery to consumers, by aligning all departments of the organization.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> Inventory Management:</b> Reduced warehousing costs by 15% through effective inventory management skills.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> Production Process: </b>Integrated all production lines of 75 Ton/day fruit pulp to achieve smooth results and facilitate easy handling, leading to the achievement of BRC "level A" in Quality Management Audit.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> Negotiation:</b> Overseeing the procurement process and negotiating prices to reduce the cost of raw materials, ensuring the final product is within the range of maximum consumer affordability.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> Troubleshooting:</b> Reconciled all departments based on SOPs to run operations smoothly.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> Report Writing:</b> Simplified the reporting system of the organization to make it effective for BRC auditing.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> Route Planning/Scheduling:</b> Performed metrics reporting and data analysis tasks to identify low-cost logistics routes and opportunities for process improvements with minimum lead time.
                                     </div>
                                 </div>
                                 <h3 className="grid-title"> Accomplishments </h3>
                                 <div className="experiece_grid">
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Participated in designing and building the AMAG-Survey application
-                                        by designing and creating features
-                                    </div>
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Regular bug solving and feature development using ReactJS on the
-                                        front-end
-                                    </div>
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Working on AMAG-CSO application to create new features and
-                                        refactor legacy code
-                                    </div>
+                                    <p> <b>Presentation Skills </b>· Third-Party Logistics (3PL) · Sales and Marketing · Key Account Management · Self-regulation · Business Development · Market Intelligence · VBA Excel · Demand Fulfillment · Production Management · Stakeholder Management · Key Performance Indicators · Forecasting · Production Planning · Warehouse Management Systems · Standard Operating Procedure (SOP) · Quality Management · Organizational Effectiveness · Team Management · Process Improvement · Enterprise Resource Planning (ERP) · Operations Management · Change Management · Analytical Skills · Troubleshooting · Logistics Management · Continuous Improvement · Supply Chain Management</p>
                                 </div>
                                 <h3 className="grid-title"> Technologies</h3>
                                 <div className="links_container">
@@ -290,11 +381,17 @@ const Experience = () => {
                         </div>
                         <div className="experience_data">
                             <div className="experience_data2">
-                                <h2 className="experience_heading">Software Engineer</h2>
+                                <h2 className="experience_heading">
+                                Production Process Engineer
+
+
+                                </h2>
                                 <div className="experience_date">
-                                    <a href="">DMoney Bangladesh</a>
+                                    <a href="">Advanced Mobility Analytics</a>
                                     <div>:</div>
-                                    <h3>November 2019 - February 2021</h3>
+                                    <h3>Jul 2014 - Oct 2016 · 2 yrs 4 mos
+
+                                    </h3>
                                 </div>
                                 <h3 className="grid-title"> Role </h3>
                                 <div className="experiece_grid">
@@ -312,8 +409,7 @@ const Experience = () => {
                                                 <path d="M20 6L9 17l-5-5" />
                                             </svg>
                                         </span>
-                                        Member of MFS team that was responsible for designing the mobile
-                                        financial system for one of the largest banks of the country
+                                        Production: Shaped the production of 120-ton paper/day with ISO 9001 and ISO 14001, reducing the environmental impact of the manufacturing process.
                                     </div>
                                     <div>
                                         <span>
@@ -329,302 +425,108 @@ const Experience = () => {
                                                 <path d="M20 6L9 17l-5-5" />
                                             </svg>
                                         </span>
-                                        Designing front-end components, writing backend API, preparing
-                                        design documents and refactoring legacy code
+                                        Designing: Executed the insulation of 1800-meter steam lines with a preheating system for raw material, minimizing steam consumption by 16%.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> Inventory Management:</b> Reduced warehousing costs by 15% through effective inventory management skills.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> Production Process: </b>Integrated all production lines of 75 Ton/day fruit pulp to achieve smooth results and facilitate easy handling, leading to the achievement of BRC "level A" in Quality Management Audit.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> Negotiation:</b> Overseeing the procurement process and negotiating prices to reduce the cost of raw materials, ensuring the final product is within the range of maximum consumer affordability.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> Troubleshooting:</b> Reconciled all departments based on SOPs to run operations smoothly.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> Report Writing:</b> Simplified the reporting system of the organization to make it effective for BRC auditing.
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={3}
+                                                className="w-3 h-3"
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path d="M20 6L9 17l-5-5" />
+                                            </svg>
+                                        </span>
+                                        <b> Route Planning/Scheduling:</b> Performed metrics reporting and data analysis tasks to identify low-cost logistics routes and opportunities for process improvements with minimum lead time.
                                     </div>
                                 </div>
                                 <h3 className="grid-title"> Accomplishments </h3>
                                 <div className="experiece_grid">
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Participated in designing and building the mfs-portal application
-                                        from scratch
-                                    </div>
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Regular bug solving and feature development using ReactJS on the
-                                        front-end
-                                    </div>
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Working on Core financial engine to create new API and refactor
-                                        legacy code
-                                    </div>
-                                </div>
-                                <h3 className="grid-title"> Technologies</h3>
-                                <div className="links_container">
-                                    <a href="">
-                                        <nav id="text-green">NodeJS</nav>
-                                    </a>
-                                    <a href="">
-                                        <nav id="text-blue">ReactJS</nav>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div className="experiences_container">
-                        <div className="line_box">
-                            <div className="line_box_child">
-                                <div className="line_grand-child" />
-                            </div>
-                            <div className="line_box_child2" />
-                        </div>
-                        <div className="experience_data">
-                            <div className="experience_data2">
-                                <h2 className="experience_heading">Software Engineer</h2>
-                                <div className="experience_date">
-                                    <a href="">Dingi Technologies Limited</a>
-                                    <div>:</div>
-                                    <h3>May 2018 - October 2019</h3>
-                                </div>
-                                <h3 className="grid-title"> Role </h3>
-                                <div className="experiece_grid">
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Member of Maps team that was responsible for building the map sdk
-                                        for web and mobile
-                                    </div>
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Designing front-end components, creating SDK, feature testing and
-                                        refactoring legacy code
-                                    </div>
-                                </div>
-                                <h3 className="grid-title"> Accomplishments </h3>
-                                <div className="experiece_grid">
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Participated in designing and building the map sdk for web using
-                                        Mapbox
-                                    </div>
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Worked on creating the vehicle tracking systems for the end users
-                                    </div>
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Designed and built the Customer management portal for public
-                                    </div>
-                                </div>
-                                <h3 className="grid-title"> Technologies</h3>
-                                <div className="links_container">
-                                    <a href="">
-                                        <nav id="text-green">NodeJS</nav>
-                                    </a>
-                                    <a href="">
-                                        <nav id="text-blue">ReactJS</nav>
-                                    </a>
-                                    <a href="">
-                                        <nav id="text-orange">AWS</nav>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div className="experiences_container">
-                        <div className="line_box">
-                            <div className="line_box_child">
-                                <div className="line_grand-child" />
-                            </div>
-                            <div className="line_box_child2" />
-                        </div>
-                        <div className="experience_data">
-                            <div className="experience_data2">
-                                <h2 className="experience_heading">Software Engineer</h2>
-                                <div className="experience_date">
-                                    <a href="">Rokkhi Ltd</a>
-                                    <div>:</div>
-                                    <h3>June 2016 - April 2018</h3>
-                                </div>
-                                <h3 className="grid-title"> Role </h3>
-                                <div className="experiece_grid">
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Member of Core that was responsible for building flagship home
-                                        security product
-                                    </div>
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Designing front-end components, writing API, Creating CI/CD
-                                        pipelines, feature testing
-                                    </div>
-                                </div>
-                                <h3 className="grid-title"> Accomplishments </h3>
-                                <div className="experiece_grid">
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Participated in designing and building the home security solution
-                                        for web users
-                                    </div>
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Worked on creating the CI/CD pipeline using AWS for the backend
-                                    </div>
-                                    <div>
-                                        <span>
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth={3}
-                                                className="w-3 h-3"
-                                                viewBox="0 0 24 24"
-                                            >
-                                                <path d="M20 6L9 17l-5-5" />
-                                            </svg>
-                                        </span>
-                                        Designed and built customer facing management panel
-                                    </div>
+                                    <p> <b>Presentation Skills </b>· Third-Party Logistics (3PL) · Sales and Marketing · Key Account Management · Self-regulation · Business Development · Market Intelligence · VBA Excel · Demand Fulfillment · Production Management · Stakeholder Management · Key Performance Indicators · Forecasting · Production Planning · Warehouse Management Systems · Standard Operating Procedure (SOP) · Quality Management · Organizational Effectiveness · Team Management · Process Improvement · Enterprise Resource Planning (ERP) · Operations Management · Change Management · Analytical Skills · Troubleshooting · Logistics Management · Continuous Improvement · Supply Chain Management</p>
                                 </div>
                                 <h3 className="grid-title"> Technologies</h3>
                                 <div className="links_container">
@@ -657,6 +559,7 @@ const Experience = () => {
                         </div>
                     </div>
                 </div>
+
             </section>
 
         </>

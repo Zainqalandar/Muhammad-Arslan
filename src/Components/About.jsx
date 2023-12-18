@@ -14,13 +14,11 @@ function About() {
                     </div>
                     <div className="intro__detail">
                         <h1>Who I am</h1>
+
                         <p>
-                            Hi, I am Hafiz Arslan, A freelancer {" "}
-                            <a href="" className="text_bold decorate-none">
+                            I am Hafiz Arslan and I am seeking a Lead position in the Business Operations / Supply Chain, with a reputable organization, and I am greatly enthusiastic about the opportunity. <a href="" className="text_bold decorate-none">
                                 @Cruise
                             </a>{" "}
-                            , working remotely from a small but beautiful country named
-                            Sheikhpura.
                         </p>
                         <p>
                             I am most experienced <br /> in{" "}
@@ -135,10 +133,12 @@ function About() {
                 <div className="technical__detail">
                     <h1>What do I do</h1>
                     <div className="technical-box1">
-                        <h2>Back-End Developer with Python</h2>
+                        <h2>Virtual University of Pakistan, 2018</h2>
                         <p>
-                            I love to write code. I love to Data analysis. This is the most
-                            important thing that I do. Currently I am working remotely at{" "}
+                            <b>Final Year Project:</b> Implementation of Green Supply Chain Management in Pakistani Organizations <br />
+
+                            <b>Noteworthy Class:</b>  Principles of Management (MGT03) <br />
+                            I successfully completed my Master's in Operations and Supply Chain Management from the Virtual University of Pakistan. During my studies, I undertook a final year project on the implementation of green supply chain management in organizations within Pakistan. Additionally, my Principles of Management (MGT03) class proved to be particularly engaging.{" "}
                             <a href="" className="text_bold">
                                 @Cruise
                             </a>
@@ -146,41 +146,9 @@ function About() {
                         </p>
                     </div>
                     <div className="technical-box2">
-                        <h2>Technical Writer</h2>
+                        <h2>Educational Background and Professional Experience</h2>
                         <p>
-                            I started writing as a hobby and it has given me a huge return! Over 1
-                            million people have read my articles on{" "}
-                            <a href="" className="text_bold text-black">
-                                Medium
-                            </a>{" "}
-                            and{" "}
-                            <a href="" className="text_bold text-black">
-                                Dev.to
-                            </a>
-                            .
-                            <br />
-                            <br />I also have Content Partnership{" "}
-                            <a href="" className="text_bold">
-                                withLogRocket
-                            </a>{" "}
-                            ,{" "}
-                            <a href="" className="text_bold">
-                                Toptal Blog
-                            </a>{" "}
-                            ,{" "}
-                            <a href="" className="text_bold text-black">
-                                SemaPhoreCI
-                            </a>{" "}
-                            <a href="" className="text_bold text-black">
-                                Blog
-                            </a>
-                            <a href="" className="text_bold text-black">
-                                Highlight.io Blog
-                            </a>{" "}
-                            and{" "}
-                            <a href="" className="text_bold text-blur">
-                                Pieces Blog
-                            </a>
+                            Graduated in Chemical Engineering (2014) from COMSATS University Islamabad, Lahore Campus. Acquired hands-on skills in supply chain at Pure Foods Pvt Ltd, including rule implementation, production management, lean six sigma, QMS auditing, cost reduction, negotiation, teamwork, and effective communication.
                         </p>
                     </div>
                     <div className="technical-box3">

@@ -62,7 +62,7 @@ function App() {
         <nav className="navbar">
           <a href="" className="nav__logo">
             <img src={`${log}`} alt="" />
-            <span>Hafiz Arslan</span>
+            <span>Arslan Rahman</span>
           </a>
           <div className="hidden__navIcon">
             <svg
