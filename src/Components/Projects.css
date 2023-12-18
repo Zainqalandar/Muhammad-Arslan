@@ -1,0 +1,185 @@
+/* Projects */
+.project_heading{
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    padding: 0px 16px;
+    padding-top: 16px;
+    font-weight: 400;
+}
+
+.project_detail_grid{
+    padding: 40px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 32px;
+    justify-items: center;
+}
+.project_detail_grid > div{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    border-radius: 8px;
+    max-width: 384px;
+    width: 384px;
+    overflow: hidden;
+}
+.project__banner{
+    padding: 12px 24px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(17 24 39/var(--tw-bg-opacity));
+    display: flex;
+    align-items: center;
+}
+.project__banner > div{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px 12px;
+}
+.project__banner svg{
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+}
+
+.project_body{
+    padding: 16px 24px;
+    
+}
+.project_body h3{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #111827;
+}
+.project-heading{
+    --tw-text-opacity: 1;
+    color: rgb(31 41 55/var(--tw-text-opacity));
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 800;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.project_body__grid{
+    display: grid;
+}
+.project_body__grid > div{
+    line-height: 28px;
+    color: #374151;
+}
+.project_body__grid span{
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128/var(--tw-text-opacity));
+    border-radius: 9999px;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    display: inline-flex;
+    margin-right: 5px;
+}
+.project_body__grid svg{
+    width: 12px;
+    height: 12px;
+}
+
+.technologies_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.technologies_container nav{
+    --tw-text-opacity: 1;
+    color: rgb(5 150 105/var(--tw-text-opacity));
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 6px 16px;
+    margin: 4px 0px;
+    margin-right: 8px;
+
+    --tw-bg-opacity: 1;
+    background-color: rgb(236 253 245/var(--tw-bg-opacity));
+    border-radius: 16px;
+}
+
+.project_link{
+    margin-top: 16px;
+    display: flex;
+    /* align-items: center; */
+}
+.project_link a{
+    --tw-text-opacity: 1;
+    color: rgb(31 41 55/var(--tw-text-opacity));
+    cursor: pointer;
+}
+.project_link svg{
+    height: 20px;
+    width: 20px;
+    fill: currentColor;
+}
+.project_link > div{
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    --tw-text-opacity: 1;
+    color: rgb(37 99 235/var(--tw-text-opacity));
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 8px;
+}
+#no_internet{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #374151;
+    text-decoration: none;
+}
+#text-blue{
+    --tw-text-opacity: 1 !important;
+    color: rgb(2 132 199/var(--tw-text-opacity)) !important;
+}
+#text-blue-over{
+    --tw-text-opacity: 1;
+    color: rgb(79 70 229/var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(238 242 255/var(--tw-bg-opacity));
+}
+#text-orange{
+    --tw-text-opacity: 1;
+    color: rgb(225 29 72/var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 241 242/var(--tw-bg-opacity));
+}
+#text-black{
+    color: black;
+}
+
+@media screen and (max-width: 1230px) {
+    .project_detail_grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+@media screen and (max-width: 858px) {
+    .project_detail_grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+@media screen and (max-width: 766px) {
+    .project_detail_grid{
+        padding: 8px 8px;
+    }
+    
+}
+@media screen and (max-width: 420px) {
+    .project_detail_grid > div{
+        width: 100%;
+        max-width: 384px;
+    }
+    
+}

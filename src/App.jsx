@@ -20,7 +20,7 @@ function App() {
         </svg>
       )
     },
-    { type: 'text', text: 'Experience', link: 'Experience.html' },
+    { type: 'text', text: 'Experience', link: '/experience' },
     {
       type: 'svg', icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" className="w-4 h-4 current-fill" viewBox="0 0 24 24">
@@ -28,7 +28,7 @@ function App() {
         </svg>
       )
     },
-    { type: 'text', text: 'Blog', link: 'Blog.html' },
+    { type: 'text', text: 'Blog', link: '/blog' },
     {
       type: 'svg', icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" className="w-4 h-4 current-fill" viewBox="0 0 24 24">
@@ -36,7 +36,7 @@ function App() {
         </svg>
       )
     },
-    { type: 'text', text: 'Projects', link: 'Projects.html' },
+    { type: 'text', text: 'Projects', link: '/projects' },
     {
       type: 'svg', icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" className="w-4 h-4 current-fill" viewBox="0 0 24 24">
@@ -44,7 +44,7 @@ function App() {
         </svg>
       )
     },
-    { type: 'text', text: 'Videos', link: 'Videos.html' },
+    { type: 'text', text: 'Videos', link: '/videos' },
     {
       type: 'svg', icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" className="w-4 h-4 current-fill" viewBox="0 0 24 24">
@@ -52,7 +52,7 @@ function App() {
         </svg>
       )
     },
-    { type: 'text', text: 'Contact', link: 'Contact.html' },
+    { type: 'text', text: 'Contact', link: '/contact' },
   ];
   return (
     <>
