@@ -54,7 +54,19 @@ function App() {
     },
     { type: 'text', text: 'Contact', link: '/contact' },
   ];
+  const navOpen = () => {
+    console.log('Hello World')
 
+    console.log('Navbar Open')
+    let navopen = document.getElementsByClassName("for__semall")[0]
+    navopen.style = 'display: block;'
+  }
+
+  const navClose = () => {
+    console.log('Nabar Close')
+    let navclose = document.getElementsByClassName("for__semall")[0]
+    navclose.style = 'display: none;'
+  }
 
   return (
     <>
@@ -66,7 +78,8 @@ function App() {
           </a>
           <div className="hidden__navIcon">
             <svg
-              onclick="navOpen()"
+              // onclick="navOpen()"
+              onClick={() => navOpen()}
               className="block h-4 w-4 fill-current"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -103,10 +116,10 @@ function App() {
         </nav>
         <nav className="navbar for__semall">
           <a href="" className="nav__logo">
-            <img src="img/logo.png" alt="" />
-            <span>Mohammad Faisal</span>
+          <img src={`${log}`} alt="" />
+            <span>Arslan Rahman</span>
           </a>
-          <button className="navbar-close" onclick="navClose()">
+          <button className="navbar-close" onClick={() => navClose()}>
             <svg
               className="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
               xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +137,7 @@ function App() {
           </button>
           <ul className="nav__ul for__semall_ul">
             <li>
-              <a href="Home.html">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <svg
@@ -143,7 +156,7 @@ function App() {
               </svg>
             </li>
             <li>
-              <a href="About.html">About Me</a>
+              <Link to="/about">About Me</Link>
             </li>
             <li>
               <svg
@@ -162,7 +175,7 @@ function App() {
               </svg>
             </li>
             <li>
-              <a href="Experience.html">Experience</a>
+              <Link to="/experience">Experience</Link>
             </li>
             <li>
               <svg
@@ -181,7 +194,7 @@ function App() {
               </svg>
             </li>
             <li>
-              <a href="Blog.html">Blog</a>
+              <Link to="/blog">Blog</Link>
             </li>
             <li>
               <svg
@@ -200,7 +213,7 @@ function App() {
               </svg>
             </li>
             <li>
-              <a href="Projects.html">Projects</a>
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
               <svg
@@ -219,7 +232,8 @@ function App() {
               </svg>
             </li>
             <li>
-              <a href="Videos.html">Videos</a>
+              {/* <a href="Videos.html">Videos</a> */}
+              <Link to="/videos">Videos</Link>
             </li>
             <li>
               <svg

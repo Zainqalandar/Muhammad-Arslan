@@ -48,7 +48,6 @@ const Home = () => {
         }
     };
     
-    console.log(text)
     return (
         <>
             <section className="home_main">
