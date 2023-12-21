@@ -23,27 +23,31 @@ const Home = () => {
     const tick = () => {
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
-        let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
-
-        setText(updatedText);
-
+        let updatedText;
+    
         if (isDeleting) {
-            setDelta(prevDelta => prevDelta / 2);
+            updatedText = fullText.substring(0, text.length - 1);
+            setDelta(50); // Adjust the speed when deleting
+        } else {
+            updatedText = fullText.substring(0, text.length + 1);
+            setDelta(150); // Adjust the speed when typing
         }
-
-        if (!isDeleting && updatedText === fullText) {
-            setIsDeleting(true);
-            setIndex(prevIndex => prevIndex - 1);
-            setDelta(period);
-        } else if (isDeleting && updatedText === '') {
+    
+        setText(updatedText);
+    
+        if (isDeleting && updatedText === '') {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
             setIndex(1);
-            setDelta(500);
+            setDelta(2000); // Pause for 2 seconds after completing a line
+        } else if (!isDeleting && updatedText === fullText) {
+            setIsDeleting(true);
+            setDelta(500); // Adjust the speed before starting to delete
         } else {
             setIndex(prevIndex => prevIndex + 1);
         }
-    }
+    };
+    
     console.log(text)
     return (
         <>

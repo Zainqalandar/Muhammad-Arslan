@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Blog.css'
 import Blog1 from '../assets/img/blog1.webp'
 import Blog2 from '../assets/img/blog2.webp'
@@ -151,7 +151,20 @@ const Blog = () => {
         }
     ];
 
-    // Now you can use the blogData array as needed in your application.
+    const [value, setvalue] = useState("")
+    const handlechange = (e) => {
+        setvalue(e.target.value)
+
+    }
+    console.log(value)
+
+
+    const filteredBlogData = blogData.filter((blog) =>
+        blog.title.toLowerCase().includes(value.toLowerCase()) ||
+        blog.description.toLowerCase().includes(value.toLowerCase()) ||
+        blog.date.toLowerCase().includes(value.toLowerCase())
+    );
+
 
     return (
         <>
@@ -191,26 +204,26 @@ const Blog = () => {
                                 />
                             </svg>
                         </div>
-                        <input type="search" placeholder="Search by title.." name="" id="" />
+                        <input value={value} onChange={handlechange} type="search" placeholder="Search by title.." name="" id="" />
                     </div>
                 </form>
             </div>
             <section className="blog__grid">
                 {
-                    blogData.map((blogData, index) => (
-                            <div className="bog1 Blog" key={index}>
-                                <Link to="/detail" > <img src={`${blogData.image}`} alt=""  /> </Link>
-                                <div className="languges">
-                                    <span>{blogData.languages[1]}</span>
-                                    <span>{blogData.languages[2]}</span>
-                                    <span>{blogData.languages[3]}</span>
-                                </div>
-                                <div className="blog_title">{blogData.title}</div>
-                                <div className="blog_description">
-                                    {blogData.description}
-                                </div>
-                                <div className="blog_date">{blogData.date}</div>
+                    filteredBlogData.map((blogData, index) => (
+                        <div className="bog1 Blog" key={index}>
+                            <Link to="/detail" > <img src={`${blogData.image}`} alt="" /> </Link>
+                            <div className="languges">
+                                <span>{blogData.languages[1]}</span>
+                                <span>{blogData.languages[2]}</span>
+                                <span>{blogData.languages[3]}</span>
                             </div>
+                            <div className="blog_title">{blogData.title}</div>
+                            <div className="blog_description">
+                                {blogData.description}
+                            </div>
+                            <div className="blog_date">{blogData.date}</div>
+                        </div>
                     ))
                 }
 
