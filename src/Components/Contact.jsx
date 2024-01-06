@@ -1,6 +1,31 @@
 import React from 'react'
 import './Contact.css'
 function Contact() {
+
+    
+const form = document.querySelector(".form_container")
+function sendMesg(e) {
+    e.preventDefault();
+    const name = document.querySelector('.name')
+    const email = document.querySelector('.email')
+    const message = document.querySelector('.message')
+    
+    
+    Email.send({
+        SecureToken : "2d235e42-d140-4055-9a1e-471580e64355",
+        To : 'zain.kodestudio@gmail.com',
+        From : "umramr2@gmail.com",
+        Subject : "Contact From",
+        Body : "Hello Hi zain"
+    }).then(
+      message => alert(message)
+    );
+
+    console.log('Email Submited')
+    
+}
+
+// form.addEventListener('submit', sendMesg)    
     return (
         <>
             <section className="Contact_section">
@@ -16,6 +41,7 @@ function Contact() {
                                 placeholder="What should I call you?"
                                 name="name"
                                 id="name"
+                                className='name'
                             />
                         </div>
                         <div className="form_box2">
@@ -25,6 +51,7 @@ function Contact() {
                                 placeholder="Where can I reach you?"
                                 name="email"
                                 id="email"
+                                className='email'
                             />
                         </div>
                         <div className="form_box3">
@@ -37,14 +64,15 @@ function Contact() {
                                 cols={30}
                                 rows={10}
                                 defaultValue={""}
+                                className='message'
                             />
                         </div>
                         <div className="form_box4">
-                            <button>Sand</button>
+                            <button onClick={sendMesg}>Sand</button>
                         </div>
                         <div className="form_box5">
                             <p>Or send me a direct email at</p>
-                            <p>mohammadfaisal1011@gmail.com</p>
+                            <p>arslan-rahman@outlook.com</p>
                         </div>
                         <div className="form_box6">
                             <p>Or...</p>
